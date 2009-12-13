@@ -3,7 +3,7 @@
 %html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
   %head
     %title
-      Type here your page title
+      IV Congresso Internacional de Direito do Trabalho
       - if page.title
         \-
         = page.title
@@ -14,36 +14,31 @@
 
   %body
     #header
-      %h1
-        %a.notext(href='index')
-          Type here page header title
-
-    %div{:class => "container_16 #{layout_type}"}
-      #sidebar.grid_3
-        %ul
-          - site.posts.each do |post|
-            %li{:class => "#{'current' if (page.title == post.title)}"}
-              %a{ :href => post.url}= post.title
-
-      #content.grid_13
-        - if layout_type == 'internal_page'
-          #logo_conag.grid_3.pull_1.alpha
-            %img{ :src => "images/logo.png", :alt => "Title of the logo" }
-          .grid_10.omega
-            %h2= page.title
-            = content
-        - else
-          = content
-      .clear
-    #footer
-      .container
-        .copyright
-          %span.name
-            ©2009 | Who owns this?
-          %br
-          %span.email
-            %a{ :href => "mailto:my@email.com" }
-              contact us
+      %div{:class => "container_12 #{layout_type}"}
+        .grid_4
+          %h1
+            %a.notext(href='index')
+              IV Congresso Internacional de Direito do Trabalho
+        #balanca.grid_6.prefix_1 
+          %img{ :src => "images/theme/balanca.png", :alt => "IV CIDT - Congresso Internacional de Direito do Trabalho" }
+        #menu.grid_12
+          %ul
+            %li
+              %a Início
+            %li
+              %a Programação
+            %li
+              %a Inscrição
+            %li
+              %a Local do Evento
+            %li
+              %a Comissão Organizadora
+            %li
+              %a Parceiros
+            %li
+              %a Exposição
+            %li
+              %a Contato
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
     - %w{sifr sifr-config jquery.tools.min theme gridder}.each do |js|
       %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
