@@ -1,0 +1,5 @@
+Options +MultiViews
+
+ErrorDocument 404 /404.html
+
+DirectorySlash off

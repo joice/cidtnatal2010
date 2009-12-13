@@ -1,0 +1,33 @@
+---
+layout: default
+title: Home
+layout_type: start_page
+---
+.grid_13
+  #logo.grid_4.alpha
+    %img{ :src => "images/favorite_image.png", :alt => "My super image description" }
+  .grid_9.omega
+    .grid_9
+      .slider
+        .inside
+          .slideshow
+            .items
+              - 6.times do |slide_image|
+                %img{:src => "images/slides/#{slide_image}.jpg"}/
+          .navi
+    .grid_9
+      .when.grid_4.prefix_1.alpha
+        %span.date July, 10th 2010
+        %br/
+        %span.where Wherever Place to Be
+      .counter.grid_3.prefix_1.omega
+        .text
+          %span There are
+        .counttext
+          %span#countdown 0 Days to go
+.clear
+.presentation.grid_5.prefix_5
+  .title
+    My main title
+  %p
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
