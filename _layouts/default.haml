@@ -39,6 +39,62 @@
               %a Exposição
             %li
               %a Contato
+        #container.grid_12
+          #banner.grid_12
+            %img{ :src => "images/theme/banner.jpg", :alt => "SERHS NATAL GRAND HOTEL" }
+          #content.grid_12
+            - if layout_type == 'internal_page'
+              #title
+                %h2= page.title
+                %hr
+              = content
+            - else
+              = content
+          #footer.grid_12
+            .grid_2.alpha
+              %ul
+                %li
+                  %a Conheça Natal
+                %li
+                  %a Exposição
+                %li
+                  %a Trabalhos Científicos
+                %li
+                  %a Agência Oficial
+                %li
+                  %a Local do Evento
+                %li
+                  %a Sobre Amatra
+            .grid_2
+              %ul
+                %li
+                  %a Conheça Natal
+                %li
+                  %a Exposição
+                %li
+                  %a Trabalhos Científicos
+                %li
+                  %a Agência Oficial
+                %li
+                  %a Local do Evento
+                %li
+                  %a Sobre Amatra
+            #sponsor.grid_8.omega
+              #promocao.grid_3.alpha
+                %h5 PROMOÇÃO
+                %a#amatra{ :class => "notext", :href => "#" } AMATRA
+                %a#trt{ :class => "notext", :href => "#" } TRT XXI RN
+              #apoio.grid_3
+                %h5 APOIO
+                %a#natal{ :class => "notext", :href => "http://natal.rn.gov.br" } Prefeitura do Natal
+                %a#rn{ :class => "notext", :href => "http://rn.gov.br" } Governo do Estado do RN
+              #organizacao.grid_2.omega
+                %h5 ORGANIZAÇÃO
+                %a#ideias{ :class => "notext", :href => "http://ideiaseventos.com.br" } Idéias Eventos
+        #copyright.grid_12
+          Todos os direitos reservados ao IV Congresso Internacional de Direito do Trabalho
+          %br
+          %a{ :href => "mailto:cidtnatal2010@ideiaseventos.com.br" } cidtnatal2010@ideiaseventos.com.br
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
     - %w{sifr sifr-config jquery.tools.min theme gridder}.each do |js|
       %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
