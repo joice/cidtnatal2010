@@ -23,22 +23,9 @@
           %img{ :src => "images/theme/balanca.png", :alt => "IV CIDT - Congresso Internacional de Direito do Trabalho" }
         #menu.grid_12
           %ul
-            %li
-              %a Início
-            %li
-              %a Programação
-            %li
-              %a Inscrição
-            %li
-              %a Local do Evento
-            %li
-              %a Comissão Organizadora
-            %li
-              %a Parceiros
-            %li
-              %a Exposição
-            %li
-              %a Contato
+            - site.posts.each do |post|
+              %li{:class => "#{'current' if (page.title == post.title)}"}
+                %a{ :href => post.url}= post.title
         #container.grid_12
           #banner.grid_12
             %img{ :src => "images/theme/banner.jpg", :alt => "SERHS NATAL GRAND HOTEL" }
@@ -49,36 +36,43 @@
                 %hr
               = content
             - else
-              = content
+              #index-main.grid_8.alpha
+                #title
+                  %h2= page.title
+                  %hr
+                = content
+              #index-sidebar.grid_4.omega
+
+
           #footer.grid_12
             .grid_2.alpha
               %ul
                 %li
-                  %a Conheça Natal
+                  %a{ :href => '/inscricao.html#inscricao'}  Inscrição
                 %li
-                  %a Exposição
+                  %a{ :href => '/programacao.html#programacao'} Programação
                 %li
-                  %a Trabalhos Científicos
+                  %a{ :href => '/local-do-evento.html#local-evento'}  Local do Evento
                 %li
-                  %a Agência Oficial
+                  %a{ :href => '/local-do-evento.html#conheca-natal'} Conheça Natal
                 %li
-                  %a Local do Evento
+                  %a{ :href => '/agencia-oficial.html#agencia-turismo'}  Agência Oficial
                 %li
-                  %a Sobre Amatra
+                  %a{ :href => '/contato.html#sobre-amatra'}  Sobre Amatra
             .grid_2
               %ul
                 %li
-                  %a Conheça Natal
+                  %a{ :href => '/inscricao.html#inscricao'}  Inscrição
                 %li
-                  %a Exposição
+                  %a{ :href => '/programacao.html#programacao'} Programação
                 %li
-                  %a Trabalhos Científicos
+                  %a{ :href => '/local-do-evento.html#local-evento'}  Local do Evento
                 %li
-                  %a Agência Oficial
+                  %a{ :href => '/local-do-evento.html#conheca-natal'} Conheça Natal
                 %li
-                  %a Local do Evento
+                  %a{ :href => '/agencia-oficial.html#agencia-turismo'}  Agência Oficial
                 %li
-                  %a Sobre Amatra
+                  %a{ :href => '/contato.html#sobre-amatra'}  Sobre Amatra
             #sponsor.grid_8.omega
               #promocao.grid_3.alpha
                 %h5 PROMOÇÃO

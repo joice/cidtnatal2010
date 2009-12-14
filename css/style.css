@@ -2,9 +2,11 @@ body {line-height:1;font-size:62.5%;font-family:Arial, Helvetica, Verdana, sans-
 h1, h2, h3, h4, h5, h6 { color:#1f7747; }
 h2 {font-weight:bold;font-size:24px;}
 h3 {font-size:18px;}
-h5 {font-size: 9px; font-weight: normal; }
-p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
-a {color: #72706a }
+h4 {font-size:14px;}
+h5 {font-size: 9px; font-weight: normal; color: #000; }
+p {line-height:14px;margin-bottom:16px; color: #333333; }
+a {color: #72706a; }
+li { list-style:square; color:#1f7747; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
 /* Page Layout */
@@ -13,19 +15,25 @@ a {color: #72706a }
 #header h1 a { display: block; width: 299px; height: 147px; background: url(../images/theme/logo.png) no-repeat 0 0; }
 #balanca { text-align: center; margin-top: 17px; height: 172px; }
 #menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(../images/theme/menu-bg.png) repeat-x; }
-#menu ul { margin-left: 50px; list-style: none outside; }
-#menu li { margin-left: 0; padding: 10px 8px; height: 32px; float: left; }
+#menu ul { margin-left: 9px; }
+#menu li { list-style: none outside; margin-left: 0; padding: 10px 5px; height: 32px; float: left; }
 #menu li a { font: 13px Arial; color: #fff; text-decoration: none; text-transform: uppercase; }
 #container { margin-left: 0; padding: 8px 18px 20px 0; margin-top: 2px; border: 1px solid #ebe9e4; background-color: #fdfbf4; }
-#content { max-width: 938px; padding: 15px 0; margin-bottom: 15px; margin-top: 8px; border: 1px solid #ebe9e1; background-color: #fff; }
+#content { font: 13px Arial;  max-width: 938px; padding: 15px 0; margin-bottom: 15px; margin-top: 8px; border: 1px solid #ebe9e1; background-color: #fff; }
+#content li span { color: #333333; }
+#content li destaque { color: #716e51; }
+#content li a { color: 333333; }
+#content li p { padding-top: 5px; margin-bottom:8px; }
+#content p a { color: #1f7747; }
 #content #main { margin: 0 9px 0 0; }
 #content #main .content { padding-left: 15px; }
+#content .parceiros img { vertical-align: top; }
 #content #sidebar { margin: 0 0 0 9px; }
 #content #sidebar .content { padding-right: 15px; }
 #title { padding: 0 15px; }
 #title h2 { margin-bottom: 10px; }
-#footer ul { margin-bottom: 0; padding-top: 5px; list-style: none outside; background: url(../images/theme/footer-ul-bg.png) repeat-y left; }
-#footer li { height: 20px; margin-left: 15px; }
+#footer ul { margin-bottom: 0; padding-top: 5px; background: url(../images/theme/footer-ul-bg.png) repeat-y left; }
+#footer li { height: 20px; margin-left: 15px; list-style: none outside; }
 #footer li a { font-size: 12px; }
 #sponsor { text-align: center; margin-top: 15px; }
 #sponsor a { display: inline-block; vertical-align: middle; padding: 0 15px; }
