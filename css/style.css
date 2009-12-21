@@ -30,6 +30,13 @@ li { list-style:square; color:#1f7747; }
 #content .parceiros img { vertical-align: top; }
 #content #sidebar { margin: 0 0 0 9px; }
 #content #sidebar .content { padding-right: 15px; }
+#content #sidebar .content #title { padding: 15px; background: #e8ecdb; text-align: center; color:#407e70; font-weight: bold; }
+#content #sidebar .content #content { padding: 10px; background: #faf8ef; }
+#content #sidebar .content #content #count img { text-align: center; padding-left: 5px; }
+#content #sidebar .content #content #count .element {padding-left: 40px; color: #407e70; }
+#content #sidebar .content #content #count .element span { font-size:24px; font-weight: bold;} 
+#content #sidebar .content #content #span { padding-top: 10px; }
+#content #sidebar .content #content #span a { text-align: right; color:#407e70; }
 #title { padding: 0 15px; }
 #title h2 { margin-bottom: 10px; }
 #footer ul { margin-bottom: 0; padding-top: 5px; background: url(../images/theme/footer-ul-bg.png) repeat-y left; }

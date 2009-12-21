@@ -3,4 +3,32 @@ layout: default
 title: Início
 layout_type: start_page
 ---
-
+#main.grid_8.alpha
+  #title
+    %h2= page.title
+    %hr
+  .content
+    teste123
+#sidebar.grid_4.omega
+  .content
+    #title
+      INSCRIÇÕES EM BREVE
+    #content
+      #count
+        .grid_1.alpha
+          %img{ :src => "images/balanca-inscricao.png"}
+        .grid_2.omega
+          .element
+            Faltam apenas
+            %span 150 dias
+            para o início do evento.
+      .clear    
+      #span
+        Garanta sua presença no IV Congresso Internacional de Direito do Trabalho. Inscrições em breve.
+        %a{ :href => "/inscricao"} Clique aqui
+  %p
+    %a{ :href => "/programacao"}
+      %img{ :src => "images/confira-programacao.jpg", :alt => "Confira a Programação" } 
+  %p
+    %a{ :href => "/local-do-evento.html#conheca-natal"}
+      %img{ :src => "images/conheca-natal.jpg", :alt => "Conheça Natal" }
