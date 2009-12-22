@@ -54,12 +54,12 @@ li { list-style:square; color:#1f7747; }
 
 /* Tabela */
 
-#tabela{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
-#tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #e8ecdb;
+#tabela{ font: 12px Helvetica; width: 480px; text-align: left; border-collapse: collapse; }
+#tabela th{ font: 13px; font-weight: bold; padding: 8px; background: #e8ecdb;
                   border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
 #tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
-#tabela tbody tr:hover td{ background: #efe3ca; color: #575757;} 
-#tabela td.dia { text-align: center; font-weight: bold; }
+#tabela tbody tr:hover td{ background: #f3efe6; color: #575757;} 
+#tabela td.dia { text-align: center; font-weight: bold;}
 
 /* Sponsors */
 #sponsor .scrollable { float: left; width: 300px; height: 90px; position: relative; overflow: hidden; }
