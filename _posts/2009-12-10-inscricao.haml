@@ -4,30 +4,123 @@ title: Inscrição
 ---
 #main.grid_7.alpha
   .content
-    %h3{ :id => "inscricao"}
-      Inscrição
-    %p
-      Formulário de inscrição
-    %h3{ :id => "procedimentos" }
-      Procedimentos para inscrição
+    %h3{ :id => "procedimentos" } Procedimentos para inscrição
     %p
       %ul
         %li
-          %span As inscrições deverão ser efetuadas, através deste site até 15/05/2010. Após esta data, somente no local do evento.
+          %span As inscrições deverão ser efetuadas, através deste site até 12/05/10. Após esta data, somente no local do evento;
         %li
-          %span As inscrições realizadas no dia do evento estarão condicionadas à disponibilidade de vagas.
-    %h3{ :id => "taxas"}
-      Taxas de inscrição
-    %p 
-      %ul
-        %li
-          %span As diferentes categorias e datas de pagamento devem ser observadas.
+          %span Estudante de Graduação, Estudante de Pós-Graduação deverão enviar declaração de estudante para o e-mail:
+          %a.mail{ :href => "mailto:cidtnatal2010@ideiaseventos.com.br" }
+            %strong cidtnatal2010@ideiaseventos.com.br
         %li
           %span O pagamento de sua inscrição deverá ser feito por boleto bancário, emitidos no site, ou por cartões de crédito.
-    %h3{ :id => "desistencia"}
-      Desistência e Reembolso
+        %li
+          %span As diferentes categorias e datas de pagamento devem ser observadas!
+        %li
+          %span Pagamento via empenho, considerar valores do dia do evento;
+        %li
+          %span As inscrições realizadas no dia do evento estarão condicionadas à disponibilidade de vagas.
+          %p
+          %p * O não envio/apresentação da declaração implicará no cancelamento da incrição como estudante e será cobrado a diferença sobre o valor da taxa como “profissional” correspondente ao valor no dia do evento.  
+    
+    %h3{ :id => "empenho"} Procedimento de inscrição via empenho:
+    %p
+      %ol
+        %li
+          %span O empenho deverá conter as seguintes informações:
+          %ul
+            %li
+              %span Nome completo do profissional que irá participar do evento;
+            %li
+              %span Dados da instituição pagante (nome da instituição, CNPJ, Inscrição Estadual ou Municipal, endereço, bairro, cidade, Estado e CEP);
+            %li
+              %span No documento é importante conter o nome, telefone e e-mail do responsável pela emissão do empenho, para contato e envio da nota fiscal via correio;
+        %li
+          %span O Empenho deverá ser enviado para a Secretaria Executiva do evento de uma das seguintes formas:
+          %ul
+            %li 
+              %span Pelo email:
+              %a.mail{ :href => "mailto:cidtnatal2010@ideiaseventos.com.br" }
+                %strong cidtnatal2010@ideiaseventos.com.br
+            %li 
+              %span Por fax: (84) 3211-4358
+            %li 
+              %span Pelo correio no endereço da Idéias Eventos e Promoções LTDA.
+        %li
+          %span É importante lembrar que o empenho deverá ser enviado até o dia
+          %strong 25 de Maio
+          %span , para que as inscrições sejam liberadas no dia do evento.
+        %br
+        %li 
+          %span Dados para o empenho:
+          %p
+          %strong Favorecido:
+          %span Associação dos Magistrados do Trabalho da 21a. Região - AMATRA 21 
+          %br
+          %strong CNPJ:
+          %span 40986218/0001-81
+          %br
+          %strong Endereço:
+          %span R. Raimundo Chaves, 2182 Sl. 302. Candelária. Natal/RN. 
+          %br
+          %strong Telefone:
+          %span (84) 3231-4287
+          %span (84) 9925-2635
+          %br
+          %strong Responsável:
+          %span Ana Flávia
+        %br  
+        %li
+          %span Dados bancários:
+          %p
+          %strong Banco:
+          %span Caixa Economia Federal  
+          %br
+          %strong Agência:
+          %br
+          %strong Conta Corrente:
+          %br
+          %strong Cedente:
+          %span Amatra 21º
+        %br  
+        %li 
+          %span O empenho será considerado documento definitivo para inscrição do profissional no evento. Qualquer cancelamento, solicitamos que seja comunicado à Secretaria Executiva até o segundo dia do evento,
+          %strong dia 26 de Maio
+          %span , antes da elaboração da nota fiscal.
+    %h3{ :id => "desistencia"} Desistência e Reembolso
     %p
       Em caso de comunicação e justificativa formal de desistência de participação, a devolução de valores pagos será efetuada até 45 dias após a realização do evento.
+
+      As devoluções seguirão os seguintes critérios:
+    %table#tabela
+      %tr
+        %th{ :scope => "col"}  Justificativa
+        %th{ :scope => "col"}  Prazo para Solicitação
+        %th{ :scope => "col"}  Valor a ser reembolsado
+      %tr
+        %td Trabalho não aprovado
+        %td até 10 (dez) dias após a comunicação sobre o resultado da avaliação 
+        %td
+          %strong 80% do valor pago
+      %tr
+        %td Sem justificativa 
+        %td até 30 (trinta) dias antes do início do congresso 
+        %td
+          %strong 50% do valor pago 
+      %tr
+        %td Problemas de saúde 
+        %td Sem prazo limite 
+        %td
+          %strong 80% do valor pago 
+      %tr
+        %td Duplicidade de pagamento 
+        %td Sem prazo limite 
+        %td
+          %strong 100% do valor pago 
+
+    %h3{ :id => "inscricao" } Inscrição
+    %iframe{:src => "http://participe.de/events/iv-congresso-internacional-de-direito-do-trabalho.iframe?css=http://conagnatal2010.eventos.participe.de/css/participede.css", :width => '100%', :height => '900px', :scrolling => 'no', :frameborder => "0"}      
 
 #sidebar.grid_5.omega
   .content
@@ -38,7 +131,7 @@ title: Inscrição
         %li
           %a{ :href => '#procedimentos'} Procedimentos para inscrição
         %li
-          %a{ :href => '#taxas'} Taxas de inscrição
+          %a{ :href => '#empenho'} Procedimentos de inscrição via empenho  
         %li
           %a{ :href => '#desistencia'} Desistência e Reembolso
         %li
