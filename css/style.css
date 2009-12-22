@@ -16,8 +16,8 @@ li { list-style:square; color:#1f7747; }
 #balanca { text-align: center; margin-top: 17px; height: 172px; }
 #menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(../images/theme/menu-bg.png) repeat-x; }
 #menu ul { margin-left: 9px; }
-#menu li { list-style: none outside; margin-left: 0; padding: 10px 5px; height: 32px; float: left; }
-#menu li a { font-size: 13px; color: #fff; text-decoration: none; text-transform: uppercase; }
+#menu li { list-style: none outside; margin-left: 0; padding: 10px 10px; height: 32px; float: left; }
+#menu li a { font-size: 13px; font-weight: bold; color: #fff; text-decoration: none; text-transform: uppercase; }
 #container { margin-left: 0; padding: 8px 18px 20px 0; margin-top: 2px; border: 1px solid #ebe9e4; background-color: #fdfbf4; }
 #content { font-size: 13px;  max-width: 938px; padding: 15px 0; margin-bottom: 15px; margin-top: 8px; border: 1px solid #ebe9e1; background-color: #fff; }
 #content li span { color: #333333; }
