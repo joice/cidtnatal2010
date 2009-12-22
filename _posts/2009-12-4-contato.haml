@@ -22,13 +22,28 @@ title: Contato
       E-mail:
       %a.mail{ :href => "mailto:amatra21@digi.com.br" }
         amatra21@digi.com.br
-#sidebar.grid_5.omega
-  .content
-    %h3
-      Fale Conosco  
+    %p
+    %br
+    %h3 Fale Conosco  
     %p
       E-mail:
       %a.mail{ :href => "mailto:cidtnatal2010@ideiaseventos.com.br" }
         %strong cidtnatal2010@ideiaseventos.com.br
-    %p
+      %br
       Telefone: (84) 3211-4358
+    
+#sidebar.grid_5.omega
+  %h3 Entre em contato conosco
+  %form#contato{ :action => 'http://participe.de/events/iv-congresso-internacional-de-direito-do-trabalho/contacts', :method => 'post' }
+    %fieldset
+      %label Nome:
+      %input.text{ :name => 'nome' }
+      %label E-mail:
+      %input.text{ :name => 'email' }
+      %label Telefone:
+      %input.text{ :name => 'telefone' }
+      %label Mensagem:
+      %textarea.text{ :name => 'mensagem' }
+      %br
+      %br
+      %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }  
