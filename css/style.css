@@ -17,9 +17,9 @@ li { list-style:square; color:#1f7747; }
 #menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(../images/theme/menu-bg.png) repeat-x; }
 #menu ul { margin-left: 9px; }
 #menu li { list-style: none outside; margin-left: 0; padding: 10px 5px; height: 32px; float: left; }
-#menu li a { font: 13px Arial; color: #fff; text-decoration: none; text-transform: uppercase; }
+#menu li a { font-size: 13px; color: #fff; text-decoration: none; text-transform: uppercase; }
 #container { margin-left: 0; padding: 8px 18px 20px 0; margin-top: 2px; border: 1px solid #ebe9e4; background-color: #fdfbf4; }
-#content { font: 13px Arial;  max-width: 938px; padding: 15px 0; margin-bottom: 15px; margin-top: 8px; border: 1px solid #ebe9e1; background-color: #fff; }
+#content { font-size: 13px;  max-width: 938px; padding: 15px 0; margin-bottom: 15px; margin-top: 8px; border: 1px solid #ebe9e1; background-color: #fff; }
 #content li span { color: #333333; }
 #content li destaque { color: #716e51; }
 #content li p { padding-top: 5px; margin-bottom:8px; }
@@ -51,6 +51,15 @@ li { list-style:square; color:#1f7747; }
 #rn { padding-left: 35px; width: 90px; height: 56px; background: url(../images/theme/rn-logo.png) no-repeat center; }
 #ideias { width: 49px; height: 47px; background: url(../images/theme/ideias-logo.png) no-repeat center; }
 #copyright { margin: 15px 0 15px 0; font-size: 12px; }
+
+/* Tabela */
+
+#tabela{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
+#tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #e8ecdb;
+                  border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
+#tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
+#tabela tbody tr:hover td{ background: #efe3ca; color: #575757;} 
+#tabela td.dia { text-align: center; font-weight: bold; }
 
 /* Sponsors */
 #sponsor .scrollable { float: left; width: 300px; height: 90px; position: relative; overflow: hidden; }

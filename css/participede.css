@@ -1,0 +1,35 @@
+body {
+  font: normal 11px auto Arial, Verdana, Helvetica, sans-serif;
+}
+
+a {
+  color: #c75f3e;
+}
+
+/* Tabela */
+
+#table{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
+#table th{ font-size: 13px; font-weight: normal; padding: 8px; background: #e8ecdb;
+                  border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
+#table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
+#table tbody tr:hover td{ background: #efe3ca; color: #575757;} 
+#table td.dia { text-align: center; font-weight: bold; }
+
+caption {
+  padding: 0 0 5px 0;
+  width: 700px;   
+  font: bold 20px Helvetica,"Trebuchet MS", Verdana, Arial, sans-serif;
+  text-align: left;
+  color:#7B7B7B;
+}
+
+form.formtastic fieldset ol li.string input {
+  width: 60%
+}
+
+h2.head {display:none;}
+
+#main dt  {float:left;width:200px;}
+.participede .empty {background:none;border:0 none;}
+.participede table {margin-bottom:20px;}
+
