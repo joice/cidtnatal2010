@@ -8,12 +8,12 @@ a {
 
 /* Tabela */
 
-#table{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
-#table th{ font-size: 13px; font-weight: normal; padding: 8px; background: #e8ecdb;
+table{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
+table th{ font-size: 13px; font-weight: normal; padding: 8px; background: #e8ecdb;
                   border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
-#table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
-#table tbody tr:hover td{ background: #efe3ca; color: #575757;} 
-#table td.dia { text-align: center; font-weight: bold; }
+table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
+table tbody tr:hover td{ background: #efe3ca; color: #575757;} 
+table td.dia { text-align: center; font-weight: bold; }
 
 caption {
   padding: 0 0 5px 0;
