@@ -27,14 +27,15 @@ li { list-style:square; color:#1f7747; }
 #content p a { color: #1f7747; }
 #content #main { margin: 0 9px 0 0; }
 #content #main .content { padding-left: 15px; }
-#content .parceiros img { vertical-align: top; }
+#content .parceiros img { vertical-align: top; padding: 5px;}
 #content #sidebar { margin: 0 0 0 9px; }
+#content #sidebar p span { color: #407e70; }
 #content #sidebar .content { padding-right: 15px; }
 #content #sidebar .content #title { padding: 15px; background: #e8ecdb; text-align: center; color:#407e70; font-weight: bold; }
 #content #sidebar .content #content { padding: 10px; background: #faf8ef; }
 #content #sidebar .content #content #count img { text-align: center; padding-left: 5px; }
 #content #sidebar .content #content #count .element {padding-left: 40px; color: #407e70; }
-#content #sidebar .content #content #count .element span { font-size:24px; font-weight: bold;} 
+#content #sidebar .content #content #count .element span { font-size:23px; font-weight: bold;} 
 #content #sidebar .content #content #span { padding-top: 10px; }
 #content #sidebar .content #content #span a { text-align: right; color:#407e70; }
 #title { padding: 0 15px; }
@@ -43,10 +44,28 @@ li { list-style:square; color:#1f7747; }
 #footer li { height: 20px; margin-left: 15px; list-style: none outside; }
 #footer li a { font-size: 12px; }
 #sponsor { text-align: center; margin-top: 15px; }
-#sponsor a { display: inline-block; vertical-align: middle; padding: 0 15px; }
+#sponsor a { display: inline-block; vertical-align: middle; }
 #amatra { width: 106px; height: 48px; background: url(../images/theme/amatra-logo.png) no-repeat center; }
-#trt { width: 50px; height: 73px; background: url(../images/theme/trt-logo.png) no-repeat center; }
+#trt { padding-left: 35px; width: 50px; height: 73px; background: url(../images/theme/trt-logo.png) no-repeat center; }
 #natal { width: 50px; height: 40px; background: url(../images/theme/natal-logo.png) no-repeat center; }
-#rn { width: 90px; height: 56px; background: url(../images/theme/rn-logo.png) no-repeat center; }
+#rn { padding-left: 35px; width: 90px; height: 56px; background: url(../images/theme/rn-logo.png) no-repeat center; }
 #ideias { width: 49px; height: 47px; background: url(../images/theme/ideias-logo.png) no-repeat center; }
 #copyright { margin: 15px 0 15px 0; font-size: 12px; }
+
+/* Sponsors */
+#sponsor .scrollable { float: left; width: 300px; height: 90px; position: relative; overflow: hidden; }
+#sponsor .scrollable .items { clear: both; position: absolute; width: 20000em; }
+#sponsor .items a { height: 90px; width: 300px; float: left; }
+#cosern { background: url(../images/theme/slides/cosern-logo.png) no-repeat center; }
+#bb { background: url(../images/theme/slides/bb-logo.png) no-repeat center; }
+#farn { background: url(../images/theme/slides/farn-logo.png) no-repeat center; }
+#cef { background: url(../images/theme/slides/caixa-logo.png) no-repeat center; }
+#correios { background: url(../images/theme/slides/correios-logo.png) no-repeat center; }
+#fal { background: url(../images/theme/slides/fal-logo.png) no-repeat center; }
+#sterbom { background: url(../images/theme/slides/sterbom-logo.png) no-repeat center; }
+#petrobras { background: url(../images/theme/slides/petrobras-logo.png) no-repeat center; }
+#unp { background: url(../images/theme/slides/logo-unp.jpg) no-repeat center; }
+#fcc { background: url(../images/theme/slides/facul-cam-casc-logo.jpg) no-repeat center; }
+#facex { background: url(../images/theme/slides/facex-logo.png) no-repeat center; }
+#fiern { background: url(../images/theme/slides/fiern-logo.png) no-repeat center; }
+#prefeitura { background: url(../images/theme/slides/prefeitura-logo.png) no-repeat center; }
