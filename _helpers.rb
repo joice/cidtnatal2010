@@ -4,7 +4,7 @@ module Helpers
   include ActionView::Helpers::TagHelper
 
   def assets
-    "http://assets1.cidtnatal2010.eventos.participe.de,http://assets2.cidtnatal2010.eventos.participe.de,http://assets3.cidtnatal.eventos.participe.de"
+    "http://assets1.cidtnatal2010.eventos.participe.de,http://assets2.cidtnatal2010.eventos.participe.de,http://assets3.cidtnatal2010.eventos.participe.de"
   end
 
   def variable(name)
