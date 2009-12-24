@@ -10,11 +10,11 @@ li { list-style:square; color:#1f7747; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
 /* Page Layout */
-#header { height: 584px; width: 100%; background: url(../images/theme/header-bg.jpg) repeat-x center; }
+#header { height: 584px; width: 100%; background: url(/images/theme/header-bg.jpg) repeat-x center; }
 #header h1 { margin-top: 19px; margin-left: -10px; }
-#header h1 a { display: block; width: 299px; height: 147px; background: url(../images/theme/logo.png) no-repeat 0 0; }
+#header h1 a { display: block; width: 299px; height: 147px; background: url(/images/theme/logo.png) no-repeat 0 0; }
 #balanca { text-align: center; margin-top: 17px; height: 172px; }
-#menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(../images/theme/menu-bg.png) repeat-x; }
+#menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(/images/theme/menu-bg.png) repeat-x; }
 #menu ul { margin-left: 9px; }
 #menu li { list-style: none outside; margin-left: 0; padding: 10px 10px; height: 32px; float: left; }
 #menu li a { font-size: 13px; font-weight: bold; color: #fff; text-decoration: none; text-transform: uppercase; }
@@ -40,16 +40,16 @@ li { list-style:square; color:#1f7747; }
 #content #sidebar .content #content #span a { text-align: right; color:#407e70; }
 #title { padding: 0 15px; }
 #title h2 { margin-bottom: 10px; }
-#footer ul { margin-bottom: 0; padding-top: 5px; background: url(../images/theme/footer-ul-bg.png) repeat-y left; }
+#footer ul { margin-bottom: 0; padding-top: 5px; background: url(/images/theme/footer-ul-bg.png) repeat-y left; }
 #footer li { height: 20px; margin-left: 15px; list-style: none outside; }
 #footer li a { font-size: 12px; }
 #sponsor { text-align: center; margin-top: 15px; }
 #sponsor a { display: inline-block; vertical-align: middle; }
-#amatra { width: 106px; height: 48px; background: url(../images/theme/amatra-logo.png) no-repeat center; }
-#trt { padding-left: 35px; width: 50px; height: 73px; background: url(../images/theme/trt-logo.png) no-repeat center; }
-#natal { width: 50px; height: 40px; background: url(../images/theme/natal-logo.png) no-repeat center; }
-#rn { padding-left: 35px; width: 90px; height: 56px; background: url(../images/theme/rn-logo.png) no-repeat center; }
-#ideias { width: 49px; height: 47px; background: url(../images/theme/ideias-logo.png) no-repeat center; }
+#amatra { width: 106px; height: 48px; background: url(/images/theme/amatra-logo.png) no-repeat center; }
+#trt { padding-left: 35px; width: 50px; height: 73px; background: url(/images/theme/trt-logo.png) no-repeat center; }
+#natal { width: 50px; height: 40px; background: url(/images/theme/natal-logo.png) no-repeat center; }
+#rn { padding-left: 35px; width: 90px; height: 56px; background: url(/images/theme/rn-logo.png) no-repeat center; }
+#ideias { width: 49px; height: 47px; background: url(/images/theme/ideias-logo.png) no-repeat center; }
 #copyright { margin: 15px 0 15px 0; font-size: 12px; }
 
 /* Tabela */
@@ -65,19 +65,19 @@ li { list-style:square; color:#1f7747; }
 #sponsor .scrollable { float: left; width: 300px; height: 90px; position: relative; overflow: hidden; }
 #sponsor .scrollable .items { clear: both; position: absolute; width: 20000em; }
 #sponsor .items a { height: 90px; width: 300px; float: left; }
-#cosern { background: url(../images/theme/slides/cosern-logo.png) no-repeat center; }
-#bb { background: url(../images/theme/slides/bb-logo.png) no-repeat center; }
-#farn { background: url(../images/theme/slides/farn-logo.png) no-repeat center; }
-#cef { background: url(../images/theme/slides/caixa-logo.png) no-repeat center; }
-#correios { background: url(../images/theme/slides/correios-logo.png) no-repeat center; }
-#fal { background: url(../images/theme/slides/fal-logo.png) no-repeat center; }
-#sterbom { background: url(../images/theme/slides/sterbom-logo.png) no-repeat center; }
-#petrobras { background: url(../images/theme/slides/petrobras-logo.png) no-repeat center; }
-#unp { background: url(../images/theme/slides/logo-unp.jpg) no-repeat center; }
-#fcc { background: url(../images/theme/slides/facul-cam-casc-logo.jpg) no-repeat center; }
-#facex { background: url(../images/theme/slides/facex-logo.png) no-repeat center; }
-#fiern { background: url(../images/theme/slides/fiern-logo.png) no-repeat center; }
-#prefeitura { background: url(../images/theme/slides/prefeitura-logo.png) no-repeat center; }
+#cosern { background: url(/images/theme/slides/cosern-logo.png) no-repeat center; }
+#bb { background: url(/images/theme/slides/bb-logo.png) no-repeat center; }
+#farn { background: url(/images/theme/slides/farn-logo.png) no-repeat center; }
+#cef { background: url(/images/theme/slides/caixa-logo.png) no-repeat center; }
+#correios { background: url(/images/theme/slides/correios-logo.png) no-repeat center; }
+#fal { background: url(/images/theme/slides/fal-logo.png) no-repeat center; }
+#sterbom { background: url(/images/theme/slides/sterbom-logo.png) no-repeat center; }
+#petrobras { background: url(/images/theme/slides/petrobras-logo.png) no-repeat center; }
+#unp { background: url(/images/theme/slides/logo-unp.jpg) no-repeat center; }
+#fcc { background: url(/images/theme/slides/facul-cam-casc-logo.jpg) no-repeat center; }
+#facex { background: url(/images/theme/slides/facex-logo.png) no-repeat center; }
+#fiern { background: url(/images/theme/slides/fiern-logo.png) no-repeat center; }
+#prefeitura { background: url(/images/theme/slides/prefeitura-logo.png) no-repeat center; }
 
 
 /* Contato */

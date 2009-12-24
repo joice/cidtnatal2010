@@ -3,6 +3,10 @@ require 'action_view'
 module Helpers
   include ActionView::Helpers::TagHelper
 
+  def assets
+    "http://assets1.cidtnatal2010.eventos.participe.de,http://assets2.cidtnatal2010.eventos.participe.de,http://assets3.cidtnatal.eventos.participe.de"
+  end
+
   def variable(name)
     begin
       page.send(name)
@@ -48,6 +52,10 @@ module Helpers
 
   def static_url(base_url)
     path = File.join("#{File.expand_path(File.dirname(__FILE__))}", base_url)
+    if assets
+      prefix = assets.split(',')
+      base_url = prefix[rand(prefix.size)] + base_url
+    end
     if File.exist?(path)
       base_url + '?' + File.new(path).ctime.to_time.to_i.to_s
     else
@@ -57,6 +65,7 @@ module Helpers
 
   def juice_it(type, files, target)
     files_with_paths = files.inject('') { |partial, file| partial.concat("#{type}/_#{file}.#{type} ") }
-    `juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} --ignore-problems --force` unless layout_type == 'internal_page'
+    #puts "juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} #{' -h ' + assets if assets} --ignore-problems --force" unless layout_type == 'internal_page'
+    `juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} #{' -h ' + assets if assets} --ignore-problems --force` unless layout_type == 'internal_page'
   end
 end
