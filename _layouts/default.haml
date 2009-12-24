@@ -2,11 +2,7 @@
 !!!
 %html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
   %head
-    %title
-      IV Congresso Internacional de Direito do Trabalho
-      - if page.title
-        \-
-        = page.title
+    %title= "IV Congresso Internacional de Direito do Trabalho - #{page.title}"
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}/
     = juice_css %w{reset text 960 style sifr}
     / [if IE]
