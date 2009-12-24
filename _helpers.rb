@@ -34,7 +34,18 @@ module Helpers
     tag('img', options)
   end
 
+  def juice_css(files, target = :all)
+    juice_it :css, files, target
+    css_tag "#{target}.min.css"
+  end
+
+  def juice_js(files, target = :all)
+    juice_it :js, files, target
+    script_tag "#{target}.min.js"
+  end
+
   protected
+
   def static_url(base_url)
     path = File.join("#{File.expand_path(File.dirname(__FILE__))}", base_url)
     if File.exist?(path)
@@ -42,5 +53,10 @@ module Helpers
     else
       base_url
     end
+  end
+
+  def juice_it(type, files, target)
+    files_with_paths = files.inject('') { |partial, file| partial.concat("#{type}/_#{file}.#{type} ") }
+    `juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} --ignore-problems --force` unless layout_type == 'internal_page'
   end
 end
