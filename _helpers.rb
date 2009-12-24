@@ -65,7 +65,7 @@ module Helpers
 
   def juice_it(type, files, target)
     files_with_paths = files.inject('') { |partial, file| partial.concat("#{type}/_#{file}.#{type} ") }
-    #puts "juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} #{' -h ' + assets if assets} --ignore-problems --force" unless layout_type == 'internal_page'
-    `juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} #{' -h ' + assets if assets} --ignore-problems --force` unless layout_type == 'internal_page'
+    #puts "juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} #{' -h ' + assets if assets} --document-root #{Dir.pwd} --ignore-problems --force" unless layout_type == 'internal_page'
+    `juicer merge #{files_with_paths} -o #{type}/#{target}.min.#{type} #{' -h ' + assets if assets} #{' -l ' + assets if assets} --document-root #{Dir.pwd} --ignore-problems --force` unless layout_type == 'internal_page'
   end
 end
