@@ -26,6 +26,7 @@ li { list-style:square; color:#1f7747; }
 #content p a { color: #1f7747; }
 #content #main { margin: 0 9px 0 0; text-align: justify; }
 #content #main .content { padding-left: 15px; }
+#content #main h3.center, h4.center{ text-align: center;}
 #content #main li a.mail { color: #1f7747; }
 #content .parceiros img { vertical-align: top; padding: 5px;}
 #content #sidebar { margin: 0 0 0 9px; }
