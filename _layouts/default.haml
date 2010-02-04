@@ -69,3 +69,12 @@
           %a{ :href => "mailto:cidtnatal2010@ideiaseventos.com.br" } cidtnatal2010@ideiaseventos.com.br
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
     = juice_js %w{sifr sifr-config jquery.tools.min theme gridder}
+    :javascript
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :javascript
+      try {
+        var pageTracker = _gat._getTracker("UA-12838754-1");
+        pageTracker._trackPageview();
+      }
+      catch(err) {}
