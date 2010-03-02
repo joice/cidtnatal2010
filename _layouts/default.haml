@@ -9,19 +9,20 @@
       =css_tag "ie.css"
 
   %body
-    #header
+    #site
       %div{:class => "container_12 #{layout_type}"}
-        .grid_4
-          %h1
-            %a.notext(href='index')
-              IV Congresso Internacional de Direito do Trabalho
-        #balanca.grid_6.prefix_1 
-          = image_tag "theme/balanca.png", :alt => "IV CIDT - Congresso Internacional de Direito do Trabalho"
-        #menu.grid_12
-          %ul
-            - site.posts.each do |post|
-              %li{:class => "#{'current' if (page.title == post.title)}"}
-                %a{ :href => post.url}= post.title
+        #header
+          .grid_4
+            %h1
+              %a.notext(href='index')
+                IV Congresso Internacional de Direito do Trabalho
+          #balanca.grid_6.prefix_1 
+            = image_tag "theme/balanca.png", :alt => "IV CIDT - Congresso Internacional de Direito do Trabalho"
+          #menu.grid_12
+            %ul
+              - site.posts.each do |post|
+                %li{:class => "#{'current' if (page.title == post.title)}"}
+                  %a{ :href => post.url}= post.title
         #container.grid_12
           #banner.grid_12
             = image_tag "theme/banner.jpg", :alt => "SERHS NATAL GRAND HOTEL"
@@ -54,15 +55,20 @@
                     %a#prefeitura{ :class => "notext", :href => 'http://natal.rn.org.br'} PREFEITURA DO NATAL 
               #promocao.grid_3
                 %h5 PROMOÇÃO
-                %a#amatra{ :class => "notext", :href => "http://www.amatra21.org.br" } AMATRA
-                %a#trt{ :class => "notext", :href => "http://www.trt21.jus.br/" } TRT XXI RN
+                %a{ :href => "http://www.amatra21.org.br" }
+                  %img.space{ :src => "images/theme/amatra-logo.png", :height => "48px", :alt => "Amatra 21"}
+                %a{ :href => "http://www.trt21.jus.br/" }
+                  %img{ :src => "images/theme/trt-logo.png", :height => "73px", :alt => "TRT XXI RN"}
               #apoio.grid_3
                 %h5 APOIO
-                %a#natal{ :class => "notext", :href => "http://natal.rn.gov.br" } Prefeitura do Natal
-                %a#rn{ :class => "notext", :href => "http://rn.gov.br" } Governo do Estado do RN
+                %a{ :href => "http://natal.rn.gov.br" }
+                  %img.space{ :src => "images/theme/natal-logo.png", :height => "40px", :alt => " Prefeitura do Natal"}
+                %a{ :href => "http://rn.gov.br" }
+                  %img{ :src => "images/theme/rn-logo.png", :height => "56px", :alt => "Governo do Estado do RN"}
               #organizacao.grid_2.omega
                 %h5 ORGANIZAÇÃO
-                %a#ideias{ :class => "notext", :href => "http://ideiaseventos.com.br" } Idéias Eventos
+                %a{ :href => "http://ideiaseventos.com.br" }
+                  %img{ :src => "images/theme/ideias-logo.png", :height => "47px", :alt => "Idéias Eventos"}
         #copyright.grid_12
           Todos os direitos reservados ao IV Congresso Internacional de Direito do Trabalho
           %br
