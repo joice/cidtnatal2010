@@ -10,18 +10,23 @@ li { list-style:square; color:#1f7747; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
 /* Page Layout */
-#header { height: 584px; width: 100%; background: url(/images/theme/header-bg.jpg) repeat-x center; }
+#site { height: 584px; width: 100%; background: url(/images/theme/header-bg.jpg) repeat-x center; }
+
 #header h1 { margin-top: 19px; margin-left: -10px; }
 #header h1 a { display: block; width: 299px; height: 147px; background: url(/images/theme/logo.png) no-repeat 0 0; }
+
 #balanca { text-align: center; margin-top: 17px; height: 172px; }
+
 #menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(/images/theme/menu-bg.png) repeat-x; }
 #menu ul { margin-left: 5px; }
 #menu li { list-style: none outside; margin-left: 0; padding: 10px 0px 0px 10px; height: 32px; float: left; }
 #menu li a { font-size: 13px; font-weight: bold; color: #fff; text-decoration: none; text-transform: uppercase; }
+
 #container { margin-left: 0; padding: 8px 18px 20px 0; margin-top: 2px; border: 1px solid #ebe9e4; background-color: #fdfbf4; }
+
 #content { font-size: 13px;  max-width: 938px; padding: 15px 0; margin-bottom: 15px; margin-top: 8px; border: 1px solid #ebe9e1; background-color: #fff; }
 #content li span { color: #333333; }
-#content li destaque { color: #716e51; }
+#content ul li #destaque { color: #716e51; }
 #content li p { padding-top: 5px; margin-bottom:8px; }
 #content p a { color: #1f7747; }
 #content #main { margin: 0 9px 0 0; text-align: justify; }
@@ -40,18 +45,18 @@ li { list-style:square; color:#1f7747; }
 #content #sidebar .content #content #count .element span { font-size:23px; font-weight: bold;} 
 #content #sidebar .content #content #span { padding-top: 10px; }
 #content #sidebar .content #content #span a { text-align: right; color:#407e70; }
+
 #title { padding: 0 15px; }
 #title h2 { margin-bottom: 10px; }
+
 #footer ul { margin-bottom: 0; padding-top: 5px; background: url(/images/theme/footer-ul-bg.png) repeat-y left; }
 #footer li { height: 20px; margin-left: 15px; list-style: none outside; }
 #footer li a { font-size: 12px; }
+
 #sponsor { text-align: center; margin-top: 15px; }
 #sponsor a { display: inline-block; vertical-align: middle; }
-#amatra { width: 106px; height: 48px; background: url(/images/theme/amatra-logo.png) no-repeat center; }
-#trt { padding-left: 35px; width: 50px; height: 73px; background: url(/images/theme/trt-logo.png) no-repeat center; }
-#natal { width: 50px; height: 40px; background: url(/images/theme/natal-logo.png) no-repeat center; }
-#rn { padding-left: 35px; width: 90px; height: 56px; background: url(/images/theme/rn-logo.png) no-repeat center; }
-#ideias { width: 49px; height: 47px; background: url(/images/theme/ideias-logo.png) no-repeat center; }
+
+#footer img.space { padding-right: 35px;}
 #copyright { margin: 15px 0 15px 0; font-size: 12px; }
 
 /* Tabela */
