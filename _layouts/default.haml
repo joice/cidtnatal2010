@@ -77,7 +77,6 @@
     = juice_js %w{sifr sifr-config jquery.tools.min theme gridder jquery.validate localization/messages_ptbr}
     - if variable(:javascript)
       %script{:type => 'text/javascript'}
-        alert('aaaaaaaa');
         = variable(:javascript)
     :javascript
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
