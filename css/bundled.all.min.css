@@ -107,6 +107,7 @@ li { list-style:square; color:#1f7747; }
 /* Contato */
 #contato fieldset { border: none; }
 #contato fieldset label { display: block; color: #716e51; padding: 6px 0 3px 2px; font-size: 11px; }
+#contato fieldset label.error { color: red; font-size: 12px; }
 #contato fieldset .text { width: 300px; padding: 5px; border: 1px solid #cccccc; }
 #contato fieldset textarea { height: 200px; }
 #contato #enviar { background: #fff; color: #716e51; border: 1px solid; font-size: 20px; font-weight: bold; cursor: pointer; }
