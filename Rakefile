@@ -14,6 +14,7 @@ task :deploy do
 cd ~/cached-copy
 echo 'getting latest from github'
 git checkout #{branch}
+git reset HEAD --hard
 git pull origin #{branch}
 git checkout -f
 echo 'make sure _site is gone!'
