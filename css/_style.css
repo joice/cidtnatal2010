@@ -46,6 +46,9 @@ li { list-style:square; color:#1f7747; }
 #content #sidebar .content #content #span { padding-top: 10px; }
 #content #sidebar .content #content #span a { text-align: right; color:#407e70; }
 
+#sidebar #more-info {background-color: #E8ECDB; border: 1px solid; padding:10px; text-align: center;}
+#sidebar #more-info a {text-decoration: none;}
+
 #title { padding: 0 15px; }
 #title h2 { margin-bottom: 10px; }
 
