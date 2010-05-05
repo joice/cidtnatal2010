@@ -87,6 +87,7 @@ li { list-style:square; color:#1f7747; }
 #tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
 #tabela tbody tr:hover td{ background: #f3efe6; color: #575757;} 
 #tabela td.dia { text-align: center; font-weight: bold;}
+#tabela.big { width: 600px; }
 
 /* Sponsors */
 #sponsor .scrollable { float: left; width: 300px; height: 90px; position: relative; overflow: hidden; }
