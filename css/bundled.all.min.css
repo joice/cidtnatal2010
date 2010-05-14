@@ -27,14 +27,14 @@ li { list-style:square; color:#1f7747; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
 /* Page Layout */
-#site { height: 584px; width: 100%; background: url(/images/theme/header-bg.jpg?jcb=1263232550) repeat-x center; }
+#site { height: 584px; width: 100%; background: url(/images/theme/header-bg.jpg?jcb=1261607772) repeat-x center; }
 
 #header h1 { margin-top: 19px; margin-left: -10px; }
-#header h1 a { display: block; width: 299px; height: 147px; background: url(/images/theme/logo.png?jcb=1263232550) no-repeat 0 0; }
+#header h1 a { display: block; width: 299px; height: 147px; background: url(/images/theme/logo.png?jcb=1261607772) no-repeat 0 0; }
 
 #balanca { text-align: center; margin-top: 17px; height: 172px; }
 
-#menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(/images/theme/menu-bg.png?jcb=1263232550) repeat-x; }
+#menu { margin-left: 0px; padding-right: 20px; height: 32px; background: url(/images/theme/menu-bg.png?jcb=1261607772) repeat-x; }
 #menu ul { margin-left: 5px; }
 #menu li { list-style: none outside; margin-left: 0; padding: 10px 0px 0px 10px; height: 32px; float: left; }
 #menu li a { font-size: 13px; font-weight: bold; color: #fff; text-decoration: none; text-transform: uppercase; }
@@ -69,7 +69,7 @@ li { list-style:square; color:#1f7747; }
 #title { padding: 0 15px; }
 #title h2 { margin-bottom: 10px; }
 
-#footer ul { margin-bottom: 0; padding-top: 5px; background: url(/images/theme/footer-ul-bg.png?jcb=1263232550) repeat-y left; }
+#footer ul { margin-bottom: 0; padding-top: 5px; background: url(/images/theme/footer-ul-bg.png?jcb=1261607772) repeat-y left; }
 #footer li { height: 20px; margin-left: 15px; list-style: none outside; }
 #footer li a { font-size: 12px; }
 
@@ -93,19 +93,19 @@ li { list-style:square; color:#1f7747; }
 #sponsor .scrollable { float: left; width: 300px; height: 90px; position: relative; overflow: hidden; }
 #sponsor .scrollable .items { clear: both; position: absolute; width: 20000em; }
 #sponsor .items a { height: 90px; width: 300px; float: left; }
-#cosern { background: url(/images/theme/slides/cosern-logo.png?jcb=1263232550) no-repeat center; }
-#bb { background: url(/images/theme/slides/bb-logo.png?jcb=1263232550) no-repeat center; }
-#farn { background: url(/images/theme/slides/farn-logo.png?jcb=1263232550) no-repeat center; }
-#cef { background: url(/images/theme/slides/caixa-logo.png?jcb=1263232550) no-repeat center; }
-#correios { background: url(/images/theme/slides/correios-logo.png?jcb=1263232550) no-repeat center; }
-#fal { background: url(/images/theme/slides/fal-logo.png?jcb=1263232550) no-repeat center; }
-#sterbom { background: url(/images/theme/slides/sterbom-logo.png?jcb=1263232550) no-repeat center; }
-#petrobras { background: url(/images/theme/slides/petrobras-logo.png?jcb=1263232550) no-repeat center; }
-#unp { background: url(/images/theme/slides/logo-unp.jpg?jcb=1263232550) no-repeat center; }
-#facex { background: url(/images/theme/slides/facex-logo.png?jcb=1263232550) no-repeat center; }
-#fiern { background: url(/images/theme/slides/fiern-logo.png?jcb=1263232550) no-repeat center; }
-#prefeitura { background: url(/images/theme/slides/prefeitura-logo.png?jcb=1263232550) no-repeat center; }
-
+#cosern { background: url(/images/theme/slides/cosern-logo.png?jcb=1261607772) no-repeat center; }
+#bb { background: url(/images/theme/slides/bb-logo.png?jcb=1261607772) no-repeat center; }
+#farn { background: url(/images/theme/slides/farn-logo.png?jcb=1261607772) no-repeat center; }
+#cef { background: url(/images/theme/slides/caixa-logo.png?jcb=1261607772) no-repeat center; }
+#correios { background: url(/images/theme/slides/correios-logo.png?jcb=1261607772) no-repeat center; }
+#fal { background: url(/images/theme/slides/fal-logo.png?jcb=1261607772) no-repeat center; }
+#sterbom { background: url(/images/theme/slides/sterbom-logo.png?jcb=1261607772) no-repeat center; }
+#petrobras { background: url(/images/theme/slides/petrobras-logo.png?jcb=1261607772) no-repeat center; }
+#unp { background: url(/images/theme/slides/logo-unp.jpg?jcb=1261607772) no-repeat center; }
+#facex { background: url(/images/theme/slides/facex-logo.png?jcb=1261607772) no-repeat center; }
+#fiern { background: url(/images/theme/slides/fiern-logo.jpg?jcb=1273860257) no-repeat center; }
+#prefeitura { background: url(/images/theme/slides/prefeitura-logo.png?jcb=1261607772) no-repeat center; }
+#unicred { background: url(/images/theme/slides/unicred-logo.png?jcb=1273860280) no-repeat center; }
 
 /* Contato */
 #contato fieldset { border: none; }
